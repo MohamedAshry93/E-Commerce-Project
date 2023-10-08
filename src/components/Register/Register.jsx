@@ -111,7 +111,7 @@ export default function Register() {
   });
   return (
     <>
-      <div className="w-75 mx-auto py-5 mt-5 vh-100">
+      <div className="w-75 mx-auto py-5 mt-5 ">
         {error !== null ? (
           <div className="alert alert-danger text-center">{error}</div>
         ) : (
